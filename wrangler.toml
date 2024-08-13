@@ -13,13 +13,13 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 [env.production]
 name = "cloudflare-docker-proxy"
 # routes = [
-#   { pattern = "docker.akkoyan.eu.org", custom_domain = true },
-#   { pattern = "quay.akkoyan.eu.org", custom_domain = true },
-#   { pattern = "gcr.akkoyan.eu.org", custom_domain = true },
-#   { pattern = "k8s-gcr.akkoyan.eu.org", custom_domain = true },
-#   { pattern = "k8s.akkoyan.eu.org", custom_domain = true },
-#   { pattern = "ghcr.akkoyan.eu.org", custom_domain = true },
-#   { pattern = "cloudsmith.akkoyan.eu.org", custom_domain = true },
+#   { pattern = "docker.akko.space", custom_domain = true },
+#   { pattern = "quay.akko.space", custom_domain = true },
+#   { pattern = "gcr.akko.space", custom_domain = true },
+#   { pattern = "k8s-gcr.akko.space", custom_domain = true },
+#   { pattern = "k8s.akko.space", custom_domain = true },
+#   { pattern = "ghcr.akko.space", custom_domain = true },
+#   { pattern = "cloudsmith.akko.space", custom_domain = true },
 # ]
 
 [env.production.vars]
@@ -28,7 +28,7 @@ TARGET_UPSTREAM = ""
 
 [env.staging]
 name = "cloudflare-docker-proxy-staging"
-# route = { pattern = "docker-staging.akkoyan.eu.org", custom_domain = true }
+# route = { pattern = "docker-staging.akko.space", custom_domain = true }
 
 [env.staging.vars]
 MODE = "staging"
